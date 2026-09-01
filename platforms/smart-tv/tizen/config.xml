@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+        xmlns:tizen="http://tizen.org/ns/widgets" 
+        id="http://cineplay.ott/CinePlayEngine" 
+        version="1.0.0" 
+        viewmodes="maximized">
+    <tizen:application id="CinePlayEngine.App" 
+                       exec="index.html" 
+                       package="CinePlayEngine" 
+                       required_version="3.0"/>
+    <name>CinePlay OTT</name>
+    <icon src="icon.png"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    <tizen:profile name="tv"/>
+</widget>
